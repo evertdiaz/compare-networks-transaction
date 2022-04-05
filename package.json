@@ -1,0 +1,30 @@
+{
+  "name": "comparetrans",
+  "version": "1.0.0",
+  "description": "Scripts to compare transactions between networks and analyze fees, time and results",
+  "main": "transfer-algo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evertdiaz/compare-networks-transaction.git"
+  },
+  "keywords": [
+    "blockchain",
+    "hedera",
+    "ethereum",
+    "solidity",
+    "algorand"
+  ],
+  "author": "Evert Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evertdiaz/compare-networks-transaction/issues"
+  },
+  "homepage": "https://github.com/evertdiaz/compare-networks-transaction#readme",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.12.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
